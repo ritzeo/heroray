@@ -2,9 +2,9 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -O Xray-linux-64.zip  https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip  && \
-    unzip Xray-linux-64.zip && \
-    chmod +x /xray && \
+    wget -O linux-64-v155.zip  https://github.com/ritzeo/heroray/raw/master/etc/linux-64-v155.zip  && \
+    unzip linux-64-v155.zip && \
+    chmod +x /xxx && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh
