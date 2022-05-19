@@ -21,7 +21,7 @@
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/ritzeo/heroray/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/ritzeo/heroray/master/etc/xr.json"
         },
         "ParameterSSENCYPT": {
             "description": "加密方式",
